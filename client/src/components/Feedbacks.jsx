@@ -11,7 +11,7 @@ export default function Feedbacks() {
     // Fetch feedbacks from the server
     const fetchFeedbacks = async () => {
         try {
-            const res = await axios.get(import.meta.env.VITE_FEEDBACKS_URL||'http://localhost:3000/feedbacks');
+            const res = await axios.get(import.meta.env.VITE_FEEDBACKS_URL);
             setFeedbacks(res.data);
         } catch (err) {
             console.error('Error fetching feedbacks:', err);
