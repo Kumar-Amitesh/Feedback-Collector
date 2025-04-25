@@ -137,5 +137,4 @@ A full-stack web application to collect feedback from users and display it in an
 ## Author
 
 - **Amitesh Kumar** - [GitHub](https://github.com/Kumar-Amitesh)
-
 ```
