@@ -33,7 +33,7 @@ const Form = () => {
         setLoading(true);
 
         try {
-            await axios.post('http://localhost:3000/submit-feedback', form);
+            await axios.post(import.meta.env.VITE_SUBMIT_FEEDBACK_URL||'http://localhost:3000/submit-feedback', form);
             setForm({ name: '', email: '', message: '' });
             setSuccess(true);
             setTimeout(() => setSuccess(false), 2000);
