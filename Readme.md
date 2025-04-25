@@ -57,7 +57,6 @@ A full-stack web application to collect feedback from users and display it in an
 
 - **App.jsx**: The main React component containing the form and feedback display.
 - **index.css**: Tailwind CSS configurations and custom styles.
-- **tailwind.config.js**: Tailwind CSS custom configurations (such as dark mode).
 - **vite.config.js**: Configuration file for Vite (development bundler).
 
 ### Backend (`/server`)
@@ -133,6 +132,9 @@ A full-stack web application to collect feedback from users and display it in an
 
 - **Frontend**: React, Tailwind CSS, Axios, Framer Motion, React Router.
 - **Backend**: Express, MongoDB, Mongoose, CORS, dotenv.
+
+## Live Demo
+- **You can try the application live here**: [Netlify](https://680bcb94c40a5c7cff44d551--sharefeedback.netlify.app/)
 
 ## Author
 
